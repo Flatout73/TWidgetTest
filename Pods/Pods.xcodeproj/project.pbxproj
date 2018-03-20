@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0205E590AEC8EEB6BFA09509D207770D /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2773F85E24970C77FCF4FCA690D851C1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		098ADC50E0A6EBCD05C0B68CBE952D2A /* Pods-TodayWidgetCurrency-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA06DA84F90D323FC7FD68241F0AF2D5 /* Pods-TodayWidgetCurrency-dummy.m */; };
+		0A8A7A7D75EAEB4971CEB3F58665B0AB /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333642000E8F3B12E1FBC18A789EE1B3 /* Ticker.swift */; };
+		139DF8B9AD013E4DE9C795B72D6B215A /* JBGradientBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFFC50D5958F9AB78E1E9034CB63832 /* JBGradientBarView.m */; };
+		172313F8432476371ACA02615FAA1E06 /* CryptoCurrencyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DC2E3C926012F1616C08F9485CEC4F5 /* CryptoCurrencyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20765719C80FA8DA05568CCEC0D7BA8C /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F6A83F93BA1B35087CEEA50DD58A44 /* Global.swift */; };
+		2157E68D351AE5CA57E69C9A46B0B088 /* JBLineChartLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B77CE16C166548CEE9D34AE86B88494 /* JBLineChartLine.m */; };
+		22251763370A1CBCB7BB7E1E607F2230 /* Pods-TodayExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D7F7AF5A75CC814E3DE37F49022341 /* Pods-TodayExtension-dummy.m */; };
+		299881057FB2CA560B3112BA2557FA3D /* JBLineChartDotsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EF7CB98FDBC320B2C891058DC76674F /* JBLineChartDotsView.m */; };
+		2E38BFF8237A73E24D8EF5F168155719 /* JBChartView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AB834EF908CA6429F227D5E662603D /* JBChartView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38CA890E59175CCB854195F625542345 /* JBShapeLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E2DF37E54D3CCA0A3C0A7BF4428F01 /* JBShapeLineLayer.m */; };
+		3B059AE9D1BCDB673D012857263B9D4C /* JBBarChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FB637D3B78874F0091053CD30523D9B /* JBBarChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		423FB12FD58688ED84997BF59F746989 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		426A42796485A71F96D24CCF1E859DF8 /* JBChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = 928428AB2FF69CB706E02397416ACFA1 /* JBChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		445851C633A5424160C4EE15304459C8 /* JBLineChartLinesView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DE8EDB5F615C2FAAE1DC46E4F7E8ADB /* JBLineChartLinesView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B130DBA9D16EF8608C6FB560017B7F2 /* CryptoCurrencyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 00685806E1EB7D4DDF91C7DD99E20655 /* CryptoCurrencyKit-dummy.m */; };
+		50131F7FBC738B300F83C8719C7043CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		51F96C9AB940B0632F0B8F5CCB837D6D /* JBBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5E823B3B16DEC5032A5B00476A3D99 /* JBBarChartView.m */; };
+		5A2B0C434CCB0D1CD3F49DFF060D4936 /* JBLineChartLine.h in Headers */ = {isa = PBXBuildFile; fileRef = F7F9397BC6AB19F96B2DA77C79BABFA0 /* JBLineChartLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D87DAC1B1B1C6FFA9EA6D38F5ED84F /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59C24C824ADDE40905BC39816B772057 /* SwiftyJSON-dummy.m */; };
+		66964FEEBEE07A05D985D2486B778B7D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C859EDAE43506875A2A98A5D61B0B2C /* SwiftyJSON.swift */; };
+		6A86D83775F51E702C21210516163C74 /* JBLineChartDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 179E043EE96F973D0C94D581F42E1437 /* JBLineChartDotView.m */; };
+		701F168510D1E69C7E7DEEB53513BEDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		732E83D919E45F18F1838E1D69ED471C /* JBLineChartPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = EB2449343232DD410D1C9A4386B68107 /* JBLineChartPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74CFE7B7EAC9CE681E9AD6116FA9BE65 /* JBLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C3BDF49CCC0751E59ECA9CF83B3C38 /* JBLineChartView.m */; };
+		78120A3601A06D8A5EDFBFD585129753 /* JBChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F6EC2B2F0442818FCB9288A4F4C64B /* JBChartView.m */; };
+		864D743AB1B659D830F2C0C654AEDEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		89456D1FFDB323E816213F9A5CF4089D /* JBGradientLineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C8FAFA9E8D63033F9A1F0E160F96734B /* JBGradientLineLayer.m */; };
+		915B41CE1E4EE2C2E47E8BB8F9666981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		93F689EB0FCCC0E426D47A629D398CB9 /* JBGradientLineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A6F5D177E8BA5D5BFC2F7BC3FBD39F /* JBGradientLineLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9801E7E863CE11E446B493D49AA92C7F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4029C0CD36AF17A7D013CC6CBEDD7DD /* Request.swift */; };
+		98DF62F047B5ACAA65EC3C159798A155 /* JBShapeLineLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = FA922002D308558D5BF6BFB2827B4050 /* JBShapeLineLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F0779951A822EA5DF0E31817411D9F1 /* NSMutableArray+JBStack.m in Sources */ = {isa = PBXBuildFile; fileRef = A7685108E79FA30021AA856976AF38AE /* NSMutableArray+JBStack.m */; };
+		A10E78C5CE1F3930468BD336E1F31A4C /* NSMutableArray+JBStack.h in Headers */ = {isa = PBXBuildFile; fileRef = C07ABEB342E26E6F49757C1D75573228 /* NSMutableArray+JBStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63CDF2F0879C1B64D5B7EFB3D8DAF92 /* JBChartView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF2E8CF6DE9DCECEE0CE7B23766397D /* JBChartView-dummy.m */; };
+		A6B906C10D3ECBF73EBEB90E6EDAAF29 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B44D7D9733C755757407EB03C1823 /* Graph.swift */; };
+		A8B84768753450292FE7ECB77DC30BE1 /* Pods-TodayWidgetCurrency-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5EC4EEA4539215432F6A08344483A93 /* Pods-TodayWidgetCurrency-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B55C23EFBE330672CC51B262346C9A58 /* JBGradientBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = F76A335DE59AD90266EEACB323272140 /* JBGradientBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4C39AD6B70B45C432A4AD3AE234735D /* Pods-TodayExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4274F4DBD1859C143C2B22628B5FD360 /* Pods-TodayExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5A6F1F3F0C84AE88F9F96AD83F0062C /* JBLineChartLinesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86754B3F3640720F2B6C64CA96EF1A64 /* JBLineChartLinesView.m */; };
+		CCA6BFF987DEE0C71CA6FFF87E82622C /* JBLineChartPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = E865E511B6949A4EA5619D70BC999607 /* JBLineChartPoint.m */; };
+		D8C12D3990AF99FDA491BFF4CC0B42C1 /* JBLineChartDotsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48FD18A0E06500E7BBD1A8854CFFD6A2 /* JBLineChartDotsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D969475FA12BC012A40CD8B6BC03874E /* JBLineChartDotView.h in Headers */ = {isa = PBXBuildFile; fileRef = 970371C13E3140E3578A25F6FDFAD787 /* JBLineChartDotView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E573529DC067A1DC86AC31C40744CE05 /* JBLineChartView.h in Headers */ = {isa = PBXBuildFile; fileRef = A2BADF05AC0404EC3EB54B8A179CA2D4 /* JBLineChartView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB4EED7B172A1A4A3155F416917331D8 /* CryptoCurrencyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8BCFE0F12CF42BA3646938D96EB04 /* CryptoCurrencyKit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0404F4912BBE981D060D5661315BD105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4752E1A78EE7604F2EEFBC36866BB3;
+			remoteInfo = JBChartView;
+		};
+		5F9B241F5C4FF6D0968219CB5CCE6535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1AD4699FDF78F41BF5EBBF6F3833CA;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		6B72DE712B20B71CF79FC68CF3F0A61F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDCBF3D6CA4C775F979A376BE8A6A82;
+			remoteInfo = SwiftyJSON;
+		};
+		9861EFCD7011DA1B4574137625D7E59D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A4752E1A78EE7604F2EEFBC36866BB3;
+			remoteInfo = JBChartView;
+		};
+		A9E246883A32B451AD2728202E648A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D1AD4699FDF78F41BF5EBBF6F3833CA;
+			remoteInfo = CryptoCurrencyKit;
+		};
+		DE8221917FDBA8B1358E8B2AC4F18D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FDCBF3D6CA4C775F979A376BE8A6A82;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00685806E1EB7D4DDF91C7DD99E20655 /* CryptoCurrencyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoCurrencyKit-dummy.m"; sourceTree = "<group>"; };
+		0ADFCADA3ACE6B3FB94002C1300EDDBB /* CryptoCurrencyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoCurrencyKit-prefix.pch"; sourceTree = "<group>"; };
+		0C5E823B3B16DEC5032A5B00476A3D99 /* JBBarChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBBarChartView.m; path = Classes/Bar/JBBarChartView.m; sourceTree = "<group>"; };
+		1167C5835534EAD93A3D9CA3D5F9A8B5 /* Pods-TodayExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodayExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		164A0F2C19A7F78EFFC65A4D8700D0F2 /* Pods_TodayWidgetCurrency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TodayWidgetCurrency.framework; path = "Pods-TodayWidgetCurrency.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C3BDF49CCC0751E59ECA9CF83B3C38 /* JBLineChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartView.m; path = Classes/Line/JBLineChartView.m; sourceTree = "<group>"; };
+		179E043EE96F973D0C94D581F42E1437 /* JBLineChartDotView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartDotView.m; path = Classes/Line/Views/JBLineChartDotView.m; sourceTree = "<group>"; };
+		186CC773B70EACCBA59F0595C263FE81 /* Pods_TodayExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TodayExtension.framework; path = "Pods-TodayExtension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA2A77377E486D0C37AB34FBECB11AA /* JBChartView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBChartView.xcconfig; sourceTree = "<group>"; };
+		1B77CE16C166548CEE9D34AE86B88494 /* JBLineChartLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartLine.m; path = Classes/Line/Models/JBLineChartLine.m; sourceTree = "<group>"; };
+		1F18BF8B548F960967079BEB823F94FA /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		2773F85E24970C77FCF4FCA690D851C1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		277821C6BBEFEA402C4E6DBDF82CF232 /* Pods-TodayWidgetCurrency.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TodayWidgetCurrency.modulemap"; sourceTree = "<group>"; };
+		2BF2E8CF6DE9DCECEE0CE7B23766397D /* JBChartView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JBChartView-dummy.m"; sourceTree = "<group>"; };
+		333642000E8F3B12E1FBC18A789EE1B3 /* Ticker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ticker.swift; path = Sources/Ticker.swift; sourceTree = "<group>"; };
+		38F6EC2B2F0442818FCB9288A4F4C64B /* JBChartView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBChartView.m; path = Classes/Base/JBChartView.m; sourceTree = "<group>"; };
+		427067E237889B6ABDBCDB5CCD9BF89C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4274F4DBD1859C143C2B22628B5FD360 /* Pods-TodayExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodayExtension-umbrella.h"; sourceTree = "<group>"; };
+		48FD18A0E06500E7BBD1A8854CFFD6A2 /* JBLineChartDotsView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartDotsView.h; path = Classes/Line/Views/JBLineChartDotsView.h; sourceTree = "<group>"; };
+		50C6980827135E079A356ECEB8A76734 /* Pods-TodayExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodayExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56D35530F3B0ECAC18A84E916A5DE438 /* CryptoCurrencyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CryptoCurrencyKit.modulemap; sourceTree = "<group>"; };
+		59C24C824ADDE40905BC39816B772057 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		5C859EDAE43506875A2A98A5D61B0B2C /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		5DC2E3C926012F1616C08F9485CEC4F5 /* CryptoCurrencyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoCurrencyKit-umbrella.h"; sourceTree = "<group>"; };
+		5EF7CB98FDBC320B2C891058DC76674F /* JBLineChartDotsView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartDotsView.m; path = Classes/Line/Views/JBLineChartDotsView.m; sourceTree = "<group>"; };
+		5F4023843F7EBD99AE91F7C8CC9A8B6B /* Pods-TodayWidgetCurrency-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TodayWidgetCurrency-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F91D566820A81060D306754E0D7956A /* Pods-TodayWidgetCurrency-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodayWidgetCurrency-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6CDC7D7F7B2A21957C1A59888C53E45B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F23F715596025393611CDA655597204 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7090323125F5BBB8D02BCECAE42DE012 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE8EDB5F615C2FAAE1DC46E4F7E8ADB /* JBLineChartLinesView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartLinesView.h; path = Classes/Line/Views/JBLineChartLinesView.h; sourceTree = "<group>"; };
+		7FB637D3B78874F0091053CD30523D9B /* JBBarChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBBarChartView.h; path = Classes/Bar/JBBarChartView.h; sourceTree = "<group>"; };
+		81ADDE91AE078B614630E2B1A7E8F44D /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		82D740A96C6E37842DD34684C82BB6B0 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		855FBFF75D1612231C525C51A28742BE /* Pods-TodayWidgetCurrency.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodayWidgetCurrency.release.xcconfig"; sourceTree = "<group>"; };
+		86754B3F3640720F2B6C64CA96EF1A64 /* JBLineChartLinesView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartLinesView.m; path = Classes/Line/Views/JBLineChartLinesView.m; sourceTree = "<group>"; };
+		86D7F7AF5A75CC814E3DE37F49022341 /* Pods-TodayExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodayExtension-dummy.m"; sourceTree = "<group>"; };
+		88416DEAAF97A5410D9AFF1EC654903E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88AF06B04BF56CC8BD0AEC76CDEA8F7F /* JBChartView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JBChartView.modulemap; sourceTree = "<group>"; };
+		90A6F5D177E8BA5D5BFC2F7BC3FBD39F /* JBGradientLineLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBGradientLineLayer.h; path = Classes/Line/Layers/JBGradientLineLayer.h; sourceTree = "<group>"; };
+		928428AB2FF69CB706E02397416ACFA1 /* JBChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBChartView.h; path = Classes/Base/JBChartView.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970371C13E3140E3578A25F6FDFAD787 /* JBLineChartDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartDotView.h; path = Classes/Line/Views/JBLineChartDotView.h; sourceTree = "<group>"; };
+		A287F1470C0FB3BF66C5138FF057DA7E /* Pods-TodayExtension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodayExtension-resources.sh"; sourceTree = "<group>"; };
+		A2BADF05AC0404EC3EB54B8A179CA2D4 /* JBLineChartView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartView.h; path = Classes/Line/JBLineChartView.h; sourceTree = "<group>"; };
+		A2E2DF37E54D3CCA0A3C0A7BF4428F01 /* JBShapeLineLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBShapeLineLayer.m; path = Classes/Line/Layers/JBShapeLineLayer.m; sourceTree = "<group>"; };
+		A7685108E79FA30021AA856976AF38AE /* NSMutableArray+JBStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+JBStack.m"; path = "Classes/Additions/NSMutableArray+JBStack.m"; sourceTree = "<group>"; };
+		A85D45B00E28DABB98EF1C85787B78A8 /* JBChartView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JBChartView.framework; path = JBChartView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AB834EF908CA6429F227D5E662603D /* JBChartView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBChartView-umbrella.h"; sourceTree = "<group>"; };
+		AA3BB4FB93DF134CEFA36E180E1E5601 /* Pods-TodayExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TodayExtension.modulemap"; sourceTree = "<group>"; };
+		ABFFC50D5958F9AB78E1E9034CB63832 /* JBGradientBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBGradientBarView.m; path = Classes/Bar/Views/JBGradientBarView.m; sourceTree = "<group>"; };
+		B0DC2577F7A5253097F901683698829F /* Pods-TodayWidgetCurrency.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodayWidgetCurrency.debug.xcconfig"; sourceTree = "<group>"; };
+		B1F6A83F93BA1B35087CEEA50DD58A44 /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Sources/Global.swift; sourceTree = "<group>"; };
+		B70B44D7D9733C755757407EB03C1823 /* Graph.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Graph.swift; path = Sources/Graph.swift; sourceTree = "<group>"; };
+		BA06DA84F90D323FC7FD68241F0AF2D5 /* Pods-TodayWidgetCurrency-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TodayWidgetCurrency-dummy.m"; sourceTree = "<group>"; };
+		BCFE37F6F8FACFB0ACD55769D689DCAB /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07ABEB342E26E6F49757C1D75573228 /* NSMutableArray+JBStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+JBStack.h"; path = "Classes/Additions/NSMutableArray+JBStack.h"; sourceTree = "<group>"; };
+		C5EC4EEA4539215432F6A08344483A93 /* Pods-TodayWidgetCurrency-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TodayWidgetCurrency-umbrella.h"; sourceTree = "<group>"; };
+		C7092559937D7AE9B433D541A048230F /* Pods-TodayExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodayExtension.release.xcconfig"; sourceTree = "<group>"; };
+		C8FAFA9E8D63033F9A1F0E160F96734B /* JBGradientLineLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBGradientLineLayer.m; path = Classes/Line/Layers/JBGradientLineLayer.m; sourceTree = "<group>"; };
+		D2C2A254B0956531106C505DE3424490 /* CryptoCurrencyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoCurrencyKit.framework; path = CryptoCurrencyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3ED6C96F196C1960B6B54CD940B4F1D /* JBChartView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBChartView-prefix.pch"; sourceTree = "<group>"; };
+		E0B8BCFE0F12CF42BA3646938D96EB04 /* CryptoCurrencyKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CryptoCurrencyKit.swift; path = Sources/CryptoCurrencyKit.swift; sourceTree = "<group>"; };
+		E3EE8A34637B928B6EDEE997C4072BA4 /* Pods-TodayWidgetCurrency-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TodayWidgetCurrency-resources.sh"; sourceTree = "<group>"; };
+		E4029C0CD36AF17A7D013CC6CBEDD7DD /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Sources/Request.swift; sourceTree = "<group>"; };
+		E865E511B6949A4EA5619D70BC999607 /* JBLineChartPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JBLineChartPoint.m; path = Classes/Line/Models/JBLineChartPoint.m; sourceTree = "<group>"; };
+		EB03FB376CF671AD55FDBE2FB7223626 /* Pods-TodayWidgetCurrency-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TodayWidgetCurrency-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB2449343232DD410D1C9A4386B68107 /* JBLineChartPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartPoint.h; path = Classes/Line/Models/JBLineChartPoint.h; sourceTree = "<group>"; };
+		EFAD98A89CB0A8F97BFAB6FA2D99F081 /* Pods-TodayExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TodayExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		F623BB66EBCAC1E1F218B5DC273DCCF8 /* CryptoCurrencyKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoCurrencyKit.xcconfig; sourceTree = "<group>"; };
+		F76A335DE59AD90266EEACB323272140 /* JBGradientBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBGradientBarView.h; path = Classes/Bar/Views/JBGradientBarView.h; sourceTree = "<group>"; };
+		F7F9397BC6AB19F96B2DA77C79BABFA0 /* JBLineChartLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBLineChartLine.h; path = Classes/Line/Models/JBLineChartLine.h; sourceTree = "<group>"; };
+		FA922002D308558D5BF6BFB2827B4050 /* JBShapeLineLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JBShapeLineLayer.h; path = Classes/Line/Layers/JBShapeLineLayer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		220A03D0D7DBD5A60191366075FCDB3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				701F168510D1E69C7E7DEEB53513BEDD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		263F92B3A91346382263FB0020EF8A90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864D743AB1B659D830F2C0C654AEDEAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3124380E2BE7D6164303D8C31CF72B53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423FB12FD58688ED84997BF59F746989 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEF484F3EBA4C8E65EB711F853E77B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915B41CE1E4EE2C2E47E8BB8F9666981 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B01C5612658721AB084573A3EACE94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50131F7FBC738B300F83C8719C7043CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		168AFE9B29BC8E6E4B723AA74FDD44B0 /* Pods-TodayWidgetCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				88416DEAAF97A5410D9AFF1EC654903E /* Info.plist */,
+				277821C6BBEFEA402C4E6DBDF82CF232 /* Pods-TodayWidgetCurrency.modulemap */,
+				EB03FB376CF671AD55FDBE2FB7223626 /* Pods-TodayWidgetCurrency-acknowledgements.markdown */,
+				5F4023843F7EBD99AE91F7C8CC9A8B6B /* Pods-TodayWidgetCurrency-acknowledgements.plist */,
+				BA06DA84F90D323FC7FD68241F0AF2D5 /* Pods-TodayWidgetCurrency-dummy.m */,
+				5F91D566820A81060D306754E0D7956A /* Pods-TodayWidgetCurrency-frameworks.sh */,
+				E3EE8A34637B928B6EDEE997C4072BA4 /* Pods-TodayWidgetCurrency-resources.sh */,
+				C5EC4EEA4539215432F6A08344483A93 /* Pods-TodayWidgetCurrency-umbrella.h */,
+				B0DC2577F7A5253097F901683698829F /* Pods-TodayWidgetCurrency.debug.xcconfig */,
+				855FBFF75D1612231C525C51A28742BE /* Pods-TodayWidgetCurrency.release.xcconfig */,
+			);
+			name = "Pods-TodayWidgetCurrency";
+			path = "Target Support Files/Pods-TodayWidgetCurrency";
+			sourceTree = "<group>";
+		};
+		2580FBC45608DE66E3F69FF223D32B68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				427067E237889B6ABDBCDB5CCD9BF89C /* Info.plist */,
+				88AF06B04BF56CC8BD0AEC76CDEA8F7F /* JBChartView.modulemap */,
+				1AA2A77377E486D0C37AB34FBECB11AA /* JBChartView.xcconfig */,
+				2BF2E8CF6DE9DCECEE0CE7B23766397D /* JBChartView-dummy.m */,
+				D3ED6C96F196C1960B6B54CD940B4F1D /* JBChartView-prefix.pch */,
+				A9AB834EF908CA6429F227D5E662603D /* JBChartView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JBChartView";
+			sourceTree = "<group>";
+		};
+		274844FB27B092A1440F9CF1BCC5F0F0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				56D35530F3B0ECAC18A84E916A5DE438 /* CryptoCurrencyKit.modulemap */,
+				F623BB66EBCAC1E1F218B5DC273DCCF8 /* CryptoCurrencyKit.xcconfig */,
+				00685806E1EB7D4DDF91C7DD99E20655 /* CryptoCurrencyKit-dummy.m */,
+				0ADFCADA3ACE6B3FB94002C1300EDDBB /* CryptoCurrencyKit-prefix.pch */,
+				5DC2E3C926012F1616C08F9485CEC4F5 /* CryptoCurrencyKit-umbrella.h */,
+				6CDC7D7F7B2A21957C1A59888C53E45B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CryptoCurrencyKit";
+			sourceTree = "<group>";
+		};
+		375B50037DE54FBFE252DC4AB3B191F0 /* CryptoCurrencyKit */ = {
+			isa = PBXGroup;
+			children = (
+				E0B8BCFE0F12CF42BA3646938D96EB04 /* CryptoCurrencyKit.swift */,
+				B1F6A83F93BA1B35087CEEA50DD58A44 /* Global.swift */,
+				B70B44D7D9733C755757407EB03C1823 /* Graph.swift */,
+				E4029C0CD36AF17A7D013CC6CBEDD7DD /* Request.swift */,
+				333642000E8F3B12E1FBC18A789EE1B3 /* Ticker.swift */,
+				274844FB27B092A1440F9CF1BCC5F0F0 /* Support Files */,
+			);
+			name = CryptoCurrencyKit;
+			path = CryptoCurrencyKit;
+			sourceTree = "<group>";
+		};
+		6BBEDFAEA87391B80DF96F161453E872 /* JBChartView */ = {
+			isa = PBXGroup;
+			children = (
+				7FB637D3B78874F0091053CD30523D9B /* JBBarChartView.h */,
+				0C5E823B3B16DEC5032A5B00476A3D99 /* JBBarChartView.m */,
+				928428AB2FF69CB706E02397416ACFA1 /* JBChartView.h */,
+				38F6EC2B2F0442818FCB9288A4F4C64B /* JBChartView.m */,
+				F76A335DE59AD90266EEACB323272140 /* JBGradientBarView.h */,
+				ABFFC50D5958F9AB78E1E9034CB63832 /* JBGradientBarView.m */,
+				90A6F5D177E8BA5D5BFC2F7BC3FBD39F /* JBGradientLineLayer.h */,
+				C8FAFA9E8D63033F9A1F0E160F96734B /* JBGradientLineLayer.m */,
+				48FD18A0E06500E7BBD1A8854CFFD6A2 /* JBLineChartDotsView.h */,
+				5EF7CB98FDBC320B2C891058DC76674F /* JBLineChartDotsView.m */,
+				970371C13E3140E3578A25F6FDFAD787 /* JBLineChartDotView.h */,
+				179E043EE96F973D0C94D581F42E1437 /* JBLineChartDotView.m */,
+				F7F9397BC6AB19F96B2DA77C79BABFA0 /* JBLineChartLine.h */,
+				1B77CE16C166548CEE9D34AE86B88494 /* JBLineChartLine.m */,
+				7DE8EDB5F615C2FAAE1DC46E4F7E8ADB /* JBLineChartLinesView.h */,
+				86754B3F3640720F2B6C64CA96EF1A64 /* JBLineChartLinesView.m */,
+				EB2449343232DD410D1C9A4386B68107 /* JBLineChartPoint.h */,
+				E865E511B6949A4EA5619D70BC999607 /* JBLineChartPoint.m */,
+				A2BADF05AC0404EC3EB54B8A179CA2D4 /* JBLineChartView.h */,
+				16C3BDF49CCC0751E59ECA9CF83B3C38 /* JBLineChartView.m */,
+				FA922002D308558D5BF6BFB2827B4050 /* JBShapeLineLayer.h */,
+				A2E2DF37E54D3CCA0A3C0A7BF4428F01 /* JBShapeLineLayer.m */,
+				C07ABEB342E26E6F49757C1D75573228 /* NSMutableArray+JBStack.h */,
+				A7685108E79FA30021AA856976AF38AE /* NSMutableArray+JBStack.m */,
+				2580FBC45608DE66E3F69FF223D32B68 /* Support Files */,
+			);
+			name = JBChartView;
+			path = JBChartView;
+			sourceTree = "<group>";
+		};
+		759EAAFD49E45FD5595AC906F564889B /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				5C859EDAE43506875A2A98A5D61B0B2C /* SwiftyJSON.swift */,
+				A479E869E56721515F7040B484B6B794 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		781841CB6E226E6943D27E85D1842C30 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94DD3E5EE6C971FB43D4BB46391C7CB0 /* Pods-TodayExtension */,
+				168AFE9B29BC8E6E4B723AA74FDD44B0 /* Pods-TodayWidgetCurrency */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D0DF848B2CAC8FEF1970A9C50269FF55 /* Pods */,
+				D9D4F2AB00E75DB618860D82FB6122C9 /* Products */,
+				781841CB6E226E6943D27E85D1842C30 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		94DD3E5EE6C971FB43D4BB46391C7CB0 /* Pods-TodayExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6F23F715596025393611CDA655597204 /* Info.plist */,
+				AA3BB4FB93DF134CEFA36E180E1E5601 /* Pods-TodayExtension.modulemap */,
+				50C6980827135E079A356ECEB8A76734 /* Pods-TodayExtension-acknowledgements.markdown */,
+				1167C5835534EAD93A3D9CA3D5F9A8B5 /* Pods-TodayExtension-acknowledgements.plist */,
+				86D7F7AF5A75CC814E3DE37F49022341 /* Pods-TodayExtension-dummy.m */,
+				A287F1470C0FB3BF66C5138FF057DA7E /* Pods-TodayExtension-resources.sh */,
+				4274F4DBD1859C143C2B22628B5FD360 /* Pods-TodayExtension-umbrella.h */,
+				EFAD98A89CB0A8F97BFAB6FA2D99F081 /* Pods-TodayExtension.debug.xcconfig */,
+				C7092559937D7AE9B433D541A048230F /* Pods-TodayExtension.release.xcconfig */,
+			);
+			name = "Pods-TodayExtension";
+			path = "Target Support Files/Pods-TodayExtension";
+			sourceTree = "<group>";
+		};
+		A479E869E56721515F7040B484B6B794 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7090323125F5BBB8D02BCECAE42DE012 /* Info.plist */,
+				1F18BF8B548F960967079BEB823F94FA /* SwiftyJSON.modulemap */,
+				82D740A96C6E37842DD34684C82BB6B0 /* SwiftyJSON.xcconfig */,
+				59C24C824ADDE40905BC39816B772057 /* SwiftyJSON-dummy.m */,
+				81ADDE91AE078B614630E2B1A7E8F44D /* SwiftyJSON-prefix.pch */,
+				2773F85E24970C77FCF4FCA690D851C1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0DF848B2CAC8FEF1970A9C50269FF55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				375B50037DE54FBFE252DC4AB3B191F0 /* CryptoCurrencyKit */,
+				6BBEDFAEA87391B80DF96F161453E872 /* JBChartView */,
+				759EAAFD49E45FD5595AC906F564889B /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9D4F2AB00E75DB618860D82FB6122C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C2A254B0956531106C505DE3424490 /* CryptoCurrencyKit.framework */,
+				A85D45B00E28DABB98EF1C85787B78A8 /* JBChartView.framework */,
+				186CC773B70EACCBA59F0595C263FE81 /* Pods_TodayExtension.framework */,
+				164A0F2C19A7F78EFFC65A4D8700D0F2 /* Pods_TodayWidgetCurrency.framework */,
+				BCFE37F6F8FACFB0ACD55769D689DCAB /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17E55D650E4F86AAC20FCBCE0B86DA14 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B059AE9D1BCDB673D012857263B9D4C /* JBBarChartView.h in Headers */,
+				2E38BFF8237A73E24D8EF5F168155719 /* JBChartView-umbrella.h in Headers */,
+				426A42796485A71F96D24CCF1E859DF8 /* JBChartView.h in Headers */,
+				B55C23EFBE330672CC51B262346C9A58 /* JBGradientBarView.h in Headers */,
+				93F689EB0FCCC0E426D47A629D398CB9 /* JBGradientLineLayer.h in Headers */,
+				D8C12D3990AF99FDA491BFF4CC0B42C1 /* JBLineChartDotsView.h in Headers */,
+				D969475FA12BC012A40CD8B6BC03874E /* JBLineChartDotView.h in Headers */,
+				5A2B0C434CCB0D1CD3F49DFF060D4936 /* JBLineChartLine.h in Headers */,
+				445851C633A5424160C4EE15304459C8 /* JBLineChartLinesView.h in Headers */,
+				732E83D919E45F18F1838E1D69ED471C /* JBLineChartPoint.h in Headers */,
+				E573529DC067A1DC86AC31C40744CE05 /* JBLineChartView.h in Headers */,
+				98DF62F047B5ACAA65EC3C159798A155 /* JBShapeLineLayer.h in Headers */,
+				A10E78C5CE1F3930468BD336E1F31A4C /* NSMutableArray+JBStack.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE758F3E0A2147A04370FB67B64DE99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C39AD6B70B45C432A4AD3AE234735D /* Pods-TodayExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6715273EE50FCB3E6607A55FD1462164 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B84768753450292FE7ECB77DC30BE1 /* Pods-TodayWidgetCurrency-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990A7BE3C6341A8B7BCD3E56D6542C7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0205E590AEC8EEB6BFA09509D207770D /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECD5345B17E33E447FD3BD2B472B3686 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172313F8432476371ACA02615FAA1E06 /* CryptoCurrencyKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FDCBF3D6CA4C775F979A376BE8A6A82 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F19149B56205317CFE82A4ED904A7DA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				86F6469806ECAB89CC1440A3F4033120 /* Sources */,
+				220A03D0D7DBD5A60191366075FCDB3A /* Frameworks */,
+				990A7BE3C6341A8B7BCD3E56D6542C7B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = BCFE37F6F8FACFB0ACD55769D689DCAB /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D1AD4699FDF78F41BF5EBBF6F3833CA /* CryptoCurrencyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC2C86FB80DE8B00562EDABF491EA066 /* Build configuration list for PBXNativeTarget "CryptoCurrencyKit" */;
+			buildPhases = (
+				00A0E2330F37B501150A94E5FE37EC62 /* Sources */,
+				263F92B3A91346382263FB0020EF8A90 /* Frameworks */,
+				ECD5345B17E33E447FD3BD2B472B3686 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoCurrencyKit;
+			productName = CryptoCurrencyKit;
+			productReference = D2C2A254B0956531106C505DE3424490 /* CryptoCurrencyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A4752E1A78EE7604F2EEFBC36866BB3 /* JBChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C42CC47ADC17459377FEDD18B0527A5 /* Build configuration list for PBXNativeTarget "JBChartView" */;
+			buildPhases = (
+				4EE56650C901C54760C962EA59495146 /* Sources */,
+				3124380E2BE7D6164303D8C31CF72B53 /* Frameworks */,
+				17E55D650E4F86AAC20FCBCE0B86DA14 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBChartView;
+			productName = JBChartView;
+			productReference = A85D45B00E28DABB98EF1C85787B78A8 /* JBChartView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5C7EFA69429AC977A48C9E71C1A3677 /* Pods-TodayExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90BD521E46FAFA51333A0285AD5585D /* Build configuration list for PBXNativeTarget "Pods-TodayExtension" */;
+			buildPhases = (
+				E5E9D31E7187BED4AE048820DB284EF4 /* Sources */,
+				E5B01C5612658721AB084573A3EACE94 /* Frameworks */,
+				4BE758F3E0A2147A04370FB67B64DE99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6D4AA1469B171160297E4EEA43B7EE /* PBXTargetDependency */,
+				68798DEC469732E285A2429DE2EA68C0 /* PBXTargetDependency */,
+				93216B7A77060DB465227AFE4DBB5425 /* PBXTargetDependency */,
+			);
+			name = "Pods-TodayExtension";
+			productName = "Pods-TodayExtension";
+			productReference = 186CC773B70EACCBA59F0595C263FE81 /* Pods_TodayExtension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE7B830B8A6D335AAD9E93395CB679C9 /* Pods-TodayWidgetCurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 977D38DA6440B0B841B276545B1CD69D /* Build configuration list for PBXNativeTarget "Pods-TodayWidgetCurrency" */;
+			buildPhases = (
+				8D75D46E9A39D7B2AA829FA3E2435D56 /* Sources */,
+				3BEF484F3EBA4C8E65EB711F853E77B4 /* Frameworks */,
+				6715273EE50FCB3E6607A55FD1462164 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888943AD10CF55A5F2701D28A0C6CA41 /* PBXTargetDependency */,
+				732A4242E3C73881173933127F1B4A75 /* PBXTargetDependency */,
+				A6351991CCCC4E998D1F760D4DD0F78F /* PBXTargetDependency */,
+			);
+			name = "Pods-TodayWidgetCurrency";
+			productName = "Pods-TodayWidgetCurrency";
+			productReference = 164A0F2C19A7F78EFFC65A4D8700D0F2 /* Pods_TodayWidgetCurrency.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D9D4F2AB00E75DB618860D82FB6122C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D1AD4699FDF78F41BF5EBBF6F3833CA /* CryptoCurrencyKit */,
+				7A4752E1A78EE7604F2EEFBC36866BB3 /* JBChartView */,
+				A5C7EFA69429AC977A48C9E71C1A3677 /* Pods-TodayExtension */,
+				BE7B830B8A6D335AAD9E93395CB679C9 /* Pods-TodayWidgetCurrency */,
+				1FDCBF3D6CA4C775F979A376BE8A6A82 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00A0E2330F37B501150A94E5FE37EC62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B130DBA9D16EF8608C6FB560017B7F2 /* CryptoCurrencyKit-dummy.m in Sources */,
+				FB4EED7B172A1A4A3155F416917331D8 /* CryptoCurrencyKit.swift in Sources */,
+				20765719C80FA8DA05568CCEC0D7BA8C /* Global.swift in Sources */,
+				A6B906C10D3ECBF73EBEB90E6EDAAF29 /* Graph.swift in Sources */,
+				9801E7E863CE11E446B493D49AA92C7F /* Request.swift in Sources */,
+				0A8A7A7D75EAEB4971CEB3F58665B0AB /* Ticker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EE56650C901C54760C962EA59495146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F96C9AB940B0632F0B8F5CCB837D6D /* JBBarChartView.m in Sources */,
+				A63CDF2F0879C1B64D5B7EFB3D8DAF92 /* JBChartView-dummy.m in Sources */,
+				78120A3601A06D8A5EDFBFD585129753 /* JBChartView.m in Sources */,
+				139DF8B9AD013E4DE9C795B72D6B215A /* JBGradientBarView.m in Sources */,
+				89456D1FFDB323E816213F9A5CF4089D /* JBGradientLineLayer.m in Sources */,
+				299881057FB2CA560B3112BA2557FA3D /* JBLineChartDotsView.m in Sources */,
+				6A86D83775F51E702C21210516163C74 /* JBLineChartDotView.m in Sources */,
+				2157E68D351AE5CA57E69C9A46B0B088 /* JBLineChartLine.m in Sources */,
+				C5A6F1F3F0C84AE88F9F96AD83F0062C /* JBLineChartLinesView.m in Sources */,
+				CCA6BFF987DEE0C71CA6FFF87E82622C /* JBLineChartPoint.m in Sources */,
+				74CFE7B7EAC9CE681E9AD6116FA9BE65 /* JBLineChartView.m in Sources */,
+				38CA890E59175CCB854195F625542345 /* JBShapeLineLayer.m in Sources */,
+				9F0779951A822EA5DF0E31817411D9F1 /* NSMutableArray+JBStack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F6469806ECAB89CC1440A3F4033120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D87DAC1B1B1C6FFA9EA6D38F5ED84F /* SwiftyJSON-dummy.m in Sources */,
+				66964FEEBEE07A05D985D2486B778B7D /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D75D46E9A39D7B2AA829FA3E2435D56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098ADC50E0A6EBCD05C0B68CBE952D2A /* Pods-TodayWidgetCurrency-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E9D31E7187BED4AE048820DB284EF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22251763370A1CBCB7BB7E1E607F2230 /* Pods-TodayExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68798DEC469732E285A2429DE2EA68C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JBChartView;
+			target = 7A4752E1A78EE7604F2EEFBC36866BB3 /* JBChartView */;
+			targetProxy = 0404F4912BBE981D060D5661315BD105 /* PBXContainerItemProxy */;
+		};
+		732A4242E3C73881173933127F1B4A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JBChartView;
+			target = 7A4752E1A78EE7604F2EEFBC36866BB3 /* JBChartView */;
+			targetProxy = 9861EFCD7011DA1B4574137625D7E59D /* PBXContainerItemProxy */;
+		};
+		888943AD10CF55A5F2701D28A0C6CA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoCurrencyKit;
+			target = 4D1AD4699FDF78F41BF5EBBF6F3833CA /* CryptoCurrencyKit */;
+			targetProxy = A9E246883A32B451AD2728202E648A68 /* PBXContainerItemProxy */;
+		};
+		93216B7A77060DB465227AFE4DBB5425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 1FDCBF3D6CA4C775F979A376BE8A6A82 /* SwiftyJSON */;
+			targetProxy = 6B72DE712B20B71CF79FC68CF3F0A61F /* PBXContainerItemProxy */;
+		};
+		A6351991CCCC4E998D1F760D4DD0F78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 1FDCBF3D6CA4C775F979A376BE8A6A82 /* SwiftyJSON */;
+			targetProxy = DE8221917FDBA8B1358E8B2AC4F18D08 /* PBXContainerItemProxy */;
+		};
+		CD6D4AA1469B171160297E4EEA43B7EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoCurrencyKit;
+			target = 4D1AD4699FDF78F41BF5EBBF6F3833CA /* CryptoCurrencyKit */;
+			targetProxy = 5F9B241F5C4FF6D0968219CB5CCE6535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01B5FB97CAA4577E26244EB2F4761266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D740A96C6E37842DD34684C82BB6B0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3EA9D77EBFDC6E9538333D1B796AD369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7092559937D7AE9B433D541A048230F /* Pods-TodayExtension.release.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TodayExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodayExtension/Pods-TodayExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodayExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52ABAF68D2C8E59C7E2AFC050569EB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA2A77377E486D0C37AB34FBECB11AA /* JBChartView.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JBChartView/JBChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBChartView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JBChartView/JBChartView.modulemap";
+				PRODUCT_NAME = JBChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5FA4E3ADD83E6AF9C5F08AF598955FC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAD98A89CB0A8F97BFAB6FA2D99F081 /* Pods-TodayExtension.debug.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TodayExtension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodayExtension/Pods-TodayExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodayExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67089E9CD6048C2AEC91CE0AC483A26B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F623BB66EBCAC1E1F218B5DC273DCCF8 /* CryptoCurrencyKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoCurrencyKit/CryptoCurrencyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoCurrencyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoCurrencyKit/CryptoCurrencyKit.modulemap";
+				PRODUCT_NAME = CryptoCurrencyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85C915B8A46CFD89D082A92DE20E4F14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0DC2577F7A5253097F901683698829F /* Pods-TodayWidgetCurrency.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TodayWidgetCurrency/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodayWidgetCurrency/Pods-TodayWidgetCurrency.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodayWidgetCurrency;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AB722B16D0952831F529918E914050FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F623BB66EBCAC1E1F218B5DC273DCCF8 /* CryptoCurrencyKit.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoCurrencyKit/CryptoCurrencyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoCurrencyKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoCurrencyKit/CryptoCurrencyKit.modulemap";
+				PRODUCT_NAME = CryptoCurrencyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ADB139FE870E000A2EB82B280904F771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA2A77377E486D0C37AB34FBECB11AA /* JBChartView.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JBChartView/JBChartView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JBChartView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JBChartView/JBChartView.modulemap";
+				PRODUCT_NAME = JBChartView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B92C08B8CC4147CF754C145C921B714E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82D740A96C6E37842DD34684C82BB6B0 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE51D755AF4D0A9DBB3FA25CA40D4ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 855FBFF75D1612231C525C51A28742BE /* Pods-TodayWidgetCurrency.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TodayWidgetCurrency/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TodayWidgetCurrency/Pods-TodayWidgetCurrency.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TodayWidgetCurrency;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F19149B56205317CFE82A4ED904A7DA /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B5FB97CAA4577E26244EB2F4761266 /* Debug */,
+				B92C08B8CC4147CF754C145C921B714E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C42CC47ADC17459377FEDD18B0527A5 /* Build configuration list for PBXNativeTarget "JBChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADB139FE870E000A2EB82B280904F771 /* Debug */,
+				52ABAF68D2C8E59C7E2AFC050569EB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		977D38DA6440B0B841B276545B1CD69D /* Build configuration list for PBXNativeTarget "Pods-TodayWidgetCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85C915B8A46CFD89D082A92DE20E4F14 /* Debug */,
+				CE51D755AF4D0A9DBB3FA25CA40D4ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90BD521E46FAFA51333A0285AD5585D /* Build configuration list for PBXNativeTarget "Pods-TodayExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FA4E3ADD83E6AF9C5F08AF598955FC7 /* Debug */,
+				3EA9D77EBFDC6E9538333D1B796AD369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC2C86FB80DE8B00562EDABF491EA066 /* Build configuration list for PBXNativeTarget "CryptoCurrencyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB722B16D0952831F529918E914050FC /* Debug */,
+				67089E9CD6048C2AEC91CE0AC483A26B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
